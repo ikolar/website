@@ -23,6 +23,7 @@
         <Compile Include="data/HCenters.fs" />
         <Compile Include="data/Hospitals.fs" />
         <Compile Include="data/Schools.fs" />
+        <Compile Include="data/Vaccinations.fs" />
         <Compile Include="data/OurWorldInData.fs" />
         <Compile Include="data/DailyDeaths.fs" />
         <Compile Include="data/MonthlyDeaths.fs" />
@@ -44,6 +45,7 @@
         <Compile Include="EuropeMapChart.fs" />
         <Compile Include="InfectionsChart.fs" />
         <Compile Include="SchoolsChart.fs" />
+        <Compile Include="VaccinationChart.fs" />
         <Compile Include="SourcesChart.fs" />
         <Compile Include="HcCasesChart.fs" />
         <Compile Include="PhaseDiagram/Types.fs" />
@@ -85,7 +87,7 @@
         <PackageReference Include="Fable.SimpleHttp" Version="3.0.0" />
         <PackageReference Include="Fable.SimpleJson" Version="3.11.0" />
         <PackageReference Include="Fable.Extras" Version="0.1.0" />
-        <PackageReference Include="Feliz" Version="1.16.0" />
+        <PackageReference Include="Feliz" Version="1.33.0" />
         <PackageReference Include="Feliz.UseElmish" Version="1.4.1" />
         <PackageReference Include="Feliz.ElmishComponents" Version="1.2.0" />
         <PackageReference Include="FsToolkit.ErrorHandling" Version="1.4.3" />
